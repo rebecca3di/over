@@ -2,7 +2,7 @@
 
 This is where I will put some of my codes and notes and thoughts during my progress in machine learning.
 
-You may find that sometimes the same work are carried out with Pytorch and also Paddlepaddle, and they can vary in time consumption. This can be due to projects with Pytorch are run on my laptop, equipped with a pitiful NVIDIA GeForce MX150, while the others are run on Tesla V100 provided by the owner of Paddlepaddle. Certainly different framework can have different speed but I presume it should be a tiny one comparing to the huge gap of device capability.
+You may find that sometimes the same work are carried out with Pytorch and also Paddlepaddle, and they can vary in time consumption. This can be due to projects with Pytorch are run on my laptop, equipped with a pitiful NVIDIA GeForce MX150, while the others are run on Tesla V100 provided by the owner of Paddlepaddle. Certainly different frameworks can have different speed but I presume it should be a tiny one comparing to the huge gap of device capability.
 
 ### transfer-learning.ipynb
 
