@@ -11,9 +11,11 @@ You may find that sometimes the same work are carried out with pytorch and also 
 - I tried with a CNN and a small ResNet, accuracy was around 70%, which was not satisfying. Problems could be that training data and test data are not IID, which is a premise for conventional (basic) machine learning.
 - DaNN can tackle the problem well, as the network consists of a feature extractor, a domain classifier and a label predictor, where the extractor is trained to generate fatures representing training data and test data, in this case, photos and scrawls, to fool out the domain classifier, then feed the features to the label predictor, when the feed now can be considered IID.
 - A over 96% accuracy can be obtained.
+- You may obtain the dataset at aistudio.baidu.com/aistudio/datasetdetail/75815.
 
 ### categorization.ipynb
-- It is a CNN baseline and small ResNet improvement used to categorize food photos.
-- Training set, validation set and testing set seperately includes 9,866, 3,430 and 3,347 RGB pictures.
+- It is a CNN baseline and small ResNet improvement used to categorize food photos. (Food-11)
+- Training set, validation set and testing set seperately includes 9,866, 3,430 and 3,347 RGB pictures in 11 categorizations.
 - Tried with several lr-schedulers, however no obvious improvement seen.
 - Still improving.
+- You may obtain the dataset at aistudio.baidu.com/aistudio/datasetdetail/76103.
